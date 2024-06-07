@@ -37,3 +37,7 @@ h2, h3 {
 .coming-soon {
 	margin-top: 3rem;
 }
+
+.ml-embedded {
+	padding: 0 !important;
+}
