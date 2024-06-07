@@ -8,7 +8,7 @@ body {
 .hero {
 	padding: 6rem;
 	margin: auto;
-	background: #013243;
+	background: rgb(15 23 42);
 	color: #e4e9ed;
 	height: 100vh;
 }
