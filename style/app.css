@@ -16,6 +16,10 @@ body {
 	font-size: 1.5rem;
 }
 
+.hero h1 {
+	margin-bottom: 3rem;
+}
+
 .key-features {
 	padding: 2rem;
 }
@@ -82,7 +86,7 @@ h2, h3 {
 	}
 
 	.hero {
-		font-size: 2rem;
+		font-size: 1.5rem;
 	}
   }
   
