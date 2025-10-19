@@ -1,27 +1,80 @@
 body {
 	margin: 0;
-	/* padding: 0; */
+	padding: 0;
 	font-family: 'Lato', sans-serif;
 	/* font-size: 20px; */
 	background: white;
 	color: rgb(51 65 85);
 	font-size: var(--font-size-base);
-	padding: var(--container-padding);
 }
 
-.hero {
-	padding: 6rem;
-	margin: 0 auto;
+.landing-body { 
+  /* margin: 4rem; */
+	/* padding: 0; */
+	font-family: 'Lato', sans-serif;
+	/* font-size: 20px; */
+	color: #0a294e;
+	font-size: var(--font-size-base);
+}
+
+.landing-body h1, .landing-body h2, .landing-body h3 {
+	margin: 0;
+	margin-bottom: 1rem;
+	font-family: 'Host Grotesk', 'Lato', sans-serif;
+}
+
+.landing-body h1 {
+	font-size: 3rem;
+  font-weight: 600;
+}
+
+.landing-body h2 {
+	font-size: 2.5rem;
+	font-weight: 600;
+}
+
+.landing-body h3 {
+	font-weight: normal;
+	font-size: 1.75rem;
+}
+
+.landing-hero {
+	padding: 8rem 0;
 	height: 100vh;
+  margin: 0 auto;
 	font-size: 1.5rem;
+  background: #0a294e;
+  background: linear-gradient(125deg,rgba(4, 24, 35, 1) 0%, rgba(10, 41, 78, 1) 100%);
+	color: #e0e3e5;
+  /* @apply max-w-7xl; */
 }
 
-.hero h1 {
-	margin-bottom: 3rem;
+.landing-hero h1, .landing-hero h2 {
+  font-weight: normal;
 }
 
-.key-features {
-	padding: 2rem;
+.landing-hero h2 {
+  font-size: 2rem;
+}
+
+h1.landing-logo {
+  font-weight: 600;
+  font-size: 4.5rem;
+  margin-bottom: 3rem;
+}
+
+.hero-wrapper {
+  max-width: 80rem;
+  display: flex;
+  margin: 0 auto;
+}
+
+.hero-text {
+  width: 80%;
+}
+
+.hero-icon {
+  width: 20%;
 }
 
 h1, h2, h3 {
@@ -44,8 +97,8 @@ h2, h3 {
 }
 
 .coming-soon {
-	margin-top: 1rem;
-	font-size: 1.5rem;
+	margin-top: 5rem;
+	font-size: 2rem;
 }
 
 .ml-embedded {
