@@ -44,7 +44,7 @@ body {
   margin: 0 auto;
 	font-size: 1.5rem;
   background: #0a294e;
-  background: linear-gradient(125deg,rgba(4, 24, 35, 1) 0%, rgba(10, 41, 78, 1) 100%);
+  background: linear-gradient(125deg, #061A2F 0%, #3A5E96 100%);
 	color: #e0e3e5;
   /* @apply max-w-7xl; */
 }
@@ -75,6 +75,11 @@ h1.landing-logo {
 
 .hero-icon {
   width: 20%;
+}
+
+.email-form {
+	max-width: 80rem;
+	margin: 0 auto;
 }
 
 h1, h2, h3 {
