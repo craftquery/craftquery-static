@@ -10,7 +10,6 @@ body {
 
 .landing-body { 
   /* margin: 4rem; */
-	/* padding: 0; */
 	font-family: 'Lato', sans-serif;
 	/* font-size: 20px; */
 	color: #0a294e;
@@ -39,34 +38,79 @@ body {
 }
 
 .landing-hero {
-	padding: 8rem 0;
+	padding: 8rem 4rem;
 	height: 100vh;
-  margin: 0 auto;
+	margin: 0 auto;
 	font-size: 1.5rem;
-  background: #0a294e;
-  background: linear-gradient(125deg, #061A2F 0%, #3A5E96 100%);
+	background: #0a294e;
+	background: linear-gradient(125deg, #061A2F 0%, #3A5E96 100%);
 	color: #e0e3e5;
   /* @apply max-w-7xl; */
 }
 
+/* Tablet and up */
+@media (min-width: 768px) {
+  .landing-hero {
+    padding: 4rem;
+  }
+}
+
+/* Desktop and up */
+@media (min-width: 1024px) {
+  .landing-hero {
+    padding: 4rem;
+  }
+}
+
 .landing-hero h1, .landing-hero h2 {
   font-weight: normal;
+  font-size: 5rem;
+  padding: 1.5rem 0;
 }
 
 .landing-hero h2 {
-  font-size: 2rem;
+  font-size: 3.5rem;
 }
 
 h1.landing-logo {
   font-weight: 600;
-  font-size: 4.5rem;
+  font-size: 6rem;
   margin-bottom: 3rem;
 }
 
 .hero-wrapper {
   max-width: 80rem;
-  display: flex;
+  display: block;
   margin: 0 auto;
+}
+
+/* Tablet and up */
+@media (min-width: 768px) {
+  .hero-wrapper {
+    display: block;
+  }
+
+}
+
+/* Desktop and up */
+@media (min-width: 1024px) {
+  .hero-wrapper {
+    display: flex;
+  }
+  .landing-hero h2 {
+	font-size: 2rem;
+	}
+
+	.landing-hero h1 {
+		font-size: 3rem;
+	}
+	
+	h1.landing-logo {
+	font-weight: 600;
+	font-size: 4rem;
+	margin-bottom: 2rem;
+	}
+
 }
 
 .hero-text {
@@ -75,6 +119,7 @@ h1.landing-logo {
 
 .hero-icon {
   width: 20%;
+  display: none;
 }
 
 .email-form {
@@ -103,12 +148,45 @@ h2, h3 {
 
 .coming-soon {
 	margin-top: 5rem;
-	font-size: 2rem;
+	font-size: 3.5rem;
 }
 
 .ml-embedded {
 	margin-left: -20px; 
 	margin-top: 3rem;
+}
+
+.email-form > .sib-form .entry__label, .entry__field, .sib-form-block__button {
+	font-size: 2rem;
+	font-weight: normal;
+}
+
+.entry__field {
+	padding: 1rem;
+}
+
+.sib-form-block__button {
+	padding: 1.5rem;
+}
+
+/* Desktop and up */
+@media (min-width: 1024px) {
+	.coming-soon {
+		font-size: 2rem;
+	}
+	.email-form > .sib-form .entry__label, .entry__field, .sib-form-block__button {
+		font-size: 1.1rem;
+	}
+	.entry__field {
+		padding: 0.25rem;
+	}
+
+	.sib-form-block__button {
+		padding: 0.75rem 1rem;
+	}
+	.hero-icon {
+		display: block;
+	}
 }
 
 /* Mobile First approach */
