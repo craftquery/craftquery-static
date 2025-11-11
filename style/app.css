@@ -23,13 +23,13 @@ body {
 }
 
 .landing-body h1 {
-	font-size: 3rem;
-  font-weight: 600;
+	font-size: 5rem;
+	font-weight: normal;
 }
 
 .landing-body h2 {
-	font-size: 2.5rem;
-	font-weight: 600;
+	font-size: 3rem;
+	padding: 4rem 0;
 }
 
 .landing-body h3 {
@@ -60,28 +60,30 @@ body {
   .landing-hero {
     padding: 4rem;
   }
+  .landing-hero h2 {
+		font-size: 3.5rem;
+	}
+	.landing-hero h1, .landing-hero h2 {
+	font-weight: normal;
+	font-size: 5rem;
+	padding: 1.5rem 0;
+	}
 }
 
-.landing-hero h1, .landing-hero h2 {
-  font-weight: normal;
-  font-size: 5rem;
-  padding: 1.5rem 0;
-}
 
-.landing-hero h2 {
-  font-size: 3.5rem;
-}
 
 h1.landing-logo {
   font-weight: 600;
   font-size: 6rem;
-  margin-bottom: 3rem;
+  margin-top: 6rem;
+  margin-bottom: 9rem;
 }
 
 .hero-wrapper {
   max-width: 80rem;
   display: block;
   margin: 0 auto;
+  text-align: center;
 }
 
 /* Tablet and up */
@@ -114,12 +116,7 @@ h1.landing-logo {
 }
 
 .hero-text {
-  width: 80%;
-}
-
-.hero-icon {
-  width: 20%;
-  display: none;
+  width: 100%;
 }
 
 .email-form {
@@ -186,6 +183,13 @@ h2, h3 {
 	}
 	.hero-icon {
 		display: block;
+	}
+	.hero-text {
+		width: 80%;
+	}
+	.hero-icon {
+		width: 20%;
+		display: none;
 	}
 }
 
