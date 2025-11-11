@@ -38,7 +38,7 @@ body {
 }
 
 .landing-hero {
-	padding: 8rem 4rem;
+	padding: 8rem 4rem 12rem 4rem;
 	height: 100vh;
 	margin: 0 auto;
 	font-size: 1.5rem;
@@ -46,7 +46,6 @@ body {
 	/* background: linear-gradient(125deg, #061A2F 0%, #3A5E96 100%); */
 	background-color: #f0f0ee;
 	color: #2c3448;
-  /* @apply max-w-7xl; */
 }
 
 /* Tablet and up */
