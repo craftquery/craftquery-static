@@ -39,7 +39,6 @@ body {
 
 .landing-hero {
 	padding: 8rem 4rem 12rem 4rem;
-	height: 100vh;
 	margin: 0 auto;
 	font-size: 1.5rem;
 	background: #0a294e;
@@ -98,6 +97,7 @@ h1.landing-logo {
 @media (min-width: 1024px) {
   .hero-wrapper {
     display: flex;
+	text-align: left;
   }
   .landing-hero h2 {
 	font-size: 2rem;
@@ -111,6 +111,7 @@ h1.landing-logo {
 	font-weight: 600;
 	font-size: 4rem;
 	margin-bottom: 2rem;
+	margin-top: 3rem;
 	}
 
 }
@@ -153,9 +154,14 @@ h2, h3 {
 	margin-top: 3rem;
 }
 
+.sib-form {
+	text-align: center; 
+}
+
 .email-form > .sib-form .entry__label, .entry__field, .sib-form-block__button {
 	font-size: 2rem;
 	font-weight: normal;
+	text-align: center;
 }
 
 .entry__field {
@@ -171,8 +177,14 @@ h2, h3 {
 	.coming-soon {
 		font-size: 2rem;
 	}
+
+	.sib-form {
+		text-align: left; 
+	}
+
 	.email-form > .sib-form .entry__label, .entry__field, .sib-form-block__button {
 		font-size: 1.1rem;
+		text-align: left;
 	}
 	.entry__field {
 		padding: 0.25rem;
@@ -181,15 +193,13 @@ h2, h3 {
 	.sib-form-block__button {
 		padding: 0.75rem 1rem;
 	}
-	.hero-icon {
-		display: block;
-	}
 	.hero-text {
 		width: 80%;
 	}
 	.hero-icon {
+		padding-top: 8rem;
 		width: 20%;
-		display: none;
+		display: block;
 	}
 }
 
